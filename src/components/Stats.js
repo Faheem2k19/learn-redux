@@ -1,5 +1,4 @@
-// write an States component for display total counted value and export it as a default export. Need to pass count value as a prop to the States component.
-"use client";
+'use client';
 
 export default function Stats({ totalCount }) {
     return (

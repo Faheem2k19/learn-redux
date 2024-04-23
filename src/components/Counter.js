@@ -1,4 +1,3 @@
-// write a counter component for incrementing and decrementing value using useState hook and export it as a default export. Also need to call the Button component inside the Counter component.
 "use client";
 
 import { Button } from "./Button";

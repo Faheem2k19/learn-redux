@@ -1,5 +1,4 @@
-// write a button component using tailwindcss classes and export it as a named export. Need to pass className and onClick as props to the Button component.
-"use client";
+'use client';
 
 export function Button({ type, handler, children }) {
 
@@ -14,6 +13,6 @@ export function Button({ type, handler, children }) {
             onClick={handler}
         >
             {children}
-        </button>
+        </button> 
     );
 }
